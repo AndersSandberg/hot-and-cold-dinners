@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UK Food Ingredients Under SSP3-7.0 by 2100</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/base.css">
+<style>
+:root {
+  --accent: #c44b25;
+  --header-bg: #4a2a1d;
+  --row-hover: #f0e6dc;
+  --cat-bg: #ece0d4;
+  --caution-rule: #b33a2b;
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+<a href="index.html">Overview</a>
+<a href="hot.html" class="here">Hot &middot; ingredients</a>
+<a href="cold.html">Cold &middot; ingredients</a>
+<a href="hot-scenario.html">Hot &middot; scenario</a>
+<a href="cold-scenario.html">Cold &middot; scenario</a>
+</nav>
+
+<h1>UK Food Ingredients Under SSP3-7.0 by 2100</h1>
+<p class="subtitle">What Britain could grow at ~3.6&deg;C, and what a world of closed borders would actually let it eat</p>
+
+<div class="intro">
+<p>SSP3-7.0 bolts two things together. The climate half is a high-emissions trajectory reaching a central estimate of 3.6&deg;C by the end of the century. The social half, called Regional Rivalry, is a world of resurgent nationalism, collapsing trade, weak research and deteriorating infrastructure. They pull in opposite directions, and that tension is the whole story of this table.</p>
+<p>The warming makes Britain climatically capable of far more than it grows today: sorghum, durum wheat, chickpeas, soya, figs, safflower, possibly citrus. Regional Rivalry cuts off the imports it currently relies on for 35% of its food and 85% of its fruit &mdash; which is also the pressure that would drive those new crops into the ground. Seventy-five years is long enough to acquire a seed stock and learn to mill it. It is not long enough to compensate for a collapsed breeding programme, and it is barely one cycle of an orchard. Most rows below are therefore not a story about temperature.</p>
+</div>
+
+<div class="axes">
+  <div class="ax-climate"><strong>WHAT THE CLIMATE ALLOWS</strong><span>Growing degree days up ~60%. Up to 49 fewer frost days a year. A broader crop list, shifted north and west.</span></div>
+  <div class="ax-system"><strong>WHAT REGIONAL RIVALRY DELIVERS</strong><span>No seed, no inoculant, no mills, no market, no imports. Suitability without the capacity to use it.</span></div>
+</div>
+
+<div class="legend">
+  <span><span class="dot dot-gain"></span> Gains</span>
+  <span><span class="dot dot-loss"></span> Declines</span>
+  <span><span class="dot dot-mixed"></span> Mixed</span>
+  <span><span class="dot dot-new"></span> New arrival</span>
+  <span><span class="dot dot-latent"></span> Latent &mdash; needs decades of sustained investment</span>
+</div>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+  <th style="width:12%">Ingredient</th>
+  <th style="width:9%">Verdict</th>
+  <th style="width:27%">What the climate allows</th>
+  <th style="width:26%">What the system delivers</th>
+  <th style="width:26%">On the plate in 2100</th>
+</tr>
+</thead>
+<tbody>
+
+<tr class="cat-header"><td colspan="5">🌾 Grains and staples</td></tr>
+
+<tr>
+  <td class="food-name">Bread wheat</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Nationally viable but rebalanced. Gains in Scotland and the north-west; the south-west is the only major crop loss in the whole suitability study. Heat stress at flowering becomes a real risk from the 2080s.<span class="idx">Suitability index: SW &minus;5.9 &middot; NE +11.0</span></td>
+  <td>Global wheat trade fragments under export bans. Britain is better placed than most, but protein content falls with rising CO&#8322;, so the flour is less nutritious even where the yield holds.</td>
+  <td>More loaf, less protein, and possibly Scottish grain. The arable centre of gravity moves away from East Anglia.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Sorghum</td>
+  <td><span class="v v-new">New arrival</span></td>
+  <td>The highest-scoring crop in the entire UK suitability study, and the only one that gains strongly in the drying south-east as well as everywhere else. Drought-tolerant by design.<span class="idx">SW +74.5 &middot; SE +71.1 &middot; NW +65.6 &middot; NE +59.8</span></td>
+  <td>Actively favoured by SSP3 conditions. Sorghum is a smallholder crop precisely because it tolerates poor soil, low fertiliser and unreliable rain &mdash; the exact farming system Regional Rivalry produces. The remaining obstacle is breeding: tropical landraces are short-day plants and need adapting to British daylength and season, which takes sustained public research.</td>
+  <td>The most likely genuinely new British staple grain. Colonial agriculture spent a century teaching Africa to treat sorghum as a poor man's crop, and poor-man's-crop traits are what a low-input Britain would need.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Barley</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Broadly stable to improving across all four regions. Spring barley for malting may benefit from warmer springs; drought in eastern England is the risk.<span class="idx">SW +1.0 &middot; NE +7.8</span></td>
+  <td>Britain is a net exporter, so domestic supply is among the most secure things on this page.</td>
+  <td>Barley holds its place, and Scotch whisky's grain supply drifts further north within Scotland.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Oats</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>A cool-season crop suited to milder, wetter winters. Scotland and Wales gain substantially; the south-east loses slightly. Less affected by summer drought than wheat.<span class="idx">NE +34.2 &middot; NW +24.5 &middot; SE &minus;1.9</span></td>
+  <td>Minimal import dependency. Britain already has the seed, the mills and the habit &mdash; which is what makes this row different from sorghum.</td>
+  <td>Porridge, oatcakes and oat milk fill the space left by declining wheat quality. Johnson's joke about horses and Scotsmen ages badly for a third time.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Durum wheat</td>
+  <td><span class="v v-new">New arrival</span></td>
+  <td>Substantial suitability increase everywhere, strongest in the north-west. Needs the hot dry summers that southern England increasingly has.<span class="idx">NW +63.1 &middot; SW +52.0</span></td>
+  <td>A close relative of a crop Britain already grows, mills and eats, so the agronomic and industrial distance is short. Semolina milling is a retooling problem, not an invention problem. South-east water stress caps the scale.</td>
+  <td>British pasta flour, plausibly at modest scale. The Mediterranean supply it replaces is the one under existential drought stress.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Maize (grain)</td>
+  <td><span class="v v-new">New arrival</span></td>
+  <td>Currently grown only for silage. Large suitability gains, but concentrated in Scotland and the north-east rather than the warm south. Being a C4 crop it gains little from CO&#8322;, and it is thirsty.<span class="idx">NE +62.0 &middot; NW +50.5 &middot; SE +8.2</span></td>
+  <td>Global maize declines 15&ndash;24%, and imports from the US and Brazil are severely disrupted by trade barriers. Domestic production would be filling a hole, not exploiting an opportunity.</td>
+  <td>A niche southern crop at best. Worth noting that Europe imported maize once before without its nixtamalisation, and got pellagra for it.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Potatoes</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>The suitability model scores potatoes up on thermal grounds, but it excludes irrigation and blight. The 2022 drought, which devastated the British crop, is the better guide. Hotter summers cut tuber size; wetter autumns raise blight pressure.<span class="idx">NE +31.4 (thermal only)</span></td>
+  <td>Water is the binding input and it competes with everything else. EU supply is stressed by the same warming.</td>
+  <td>The chip shop of 2100 has a problem. Sweet potatoes substitute for part of the role.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Sweet potatoes</td>
+  <td><span class="v v-new">New arrival</span></td>
+  <td>Needs above 15&deg;C for four months, achievable in the south-east by mid-century and spreading. Trials are already running.</td>
+  <td>Currently imported, so domestic production reduces exposure rather than creating it. A rare row where the two axes agree.</td>
+  <td>A plausible British staple root. It arrives with a poverty history spanning Okinawa, wartime Japan and the American South.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Rice</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>Not growable at meaningful scale. Specialist UK cultivation is weakly evidenced and water-hungry.</td>
+  <td>South Asian production collapses ~16% while trade barriers compound the shortfall. This is the sharpest single case of a food that survives or vanishes purely on whether the world market works.</td>
+  <td>Largely replaced by oats, barley, potatoes and pulses. A staple of roughly 15% of British meals becomes occasional.</td>
+</tr>
+
+<tr class="cat-header"><td colspan="5">🫘 Legumes and pulses</td></tr>
+
+<tr>
+  <td class="food-name">Broad beans</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>Strong gains in the north and west, near-flat in the south-east. Benefits from CO&#8322; as a C3 legume, though chocolate spot worsens in warm wet autumns and heat cuts pod set.<span class="idx">NW +61.4 &middot; NE +59.1 &middot; SE +6.4</span></td>
+  <td>Low import dependency and existing agronomy. Nitrogen-fixing matters more than usual once synthetic fertiliser becomes unaffordable.</td>
+  <td>A key protein source, and one of very few ingredients that scores well in both the hot and the cold scenario. Ful medames has been breakfast in Egypt for four thousand years.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Chickpeas</td>
+  <td><span class="v v-new">New arrival</span></td>
+  <td>Substantial suitability increase, best in the north-west. Needs the dry harvest conditions that drier English summers supply.<span class="idx">NW +25.9 &middot; NE +21.9</span></td>
+  <td>Commercial UK production began within the last decade, so the trajectory is already underway. Indian and Australian supply is drought-stressed, which supplies the import-substitution pressure.</td>
+  <td>British hummus is a genuinely plausible 2100 ingredient. Chickpeas have been the poor man's meat from Spanish <em>cocido</em> to Sicilian <em>panelle</em> for millennia.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Cowpeas</td>
+  <td><span class="v v-new">New arrival</span></td>
+  <td>Among the most drought-tolerant food crops known, which is precisely the trait Britain starts needing. Strong gains in the south-west.<span class="idx">SW +61.5 &middot; NW +42.0 &middot; SE +41.3</span></td>
+  <td>Nitrogen-fixing and low-input, so it fits a Britain that can no longer afford synthetic fertiliser. An established market already exists in African and Caribbean food retail, which is an unusually short route to acceptance.</td>
+  <td>A novel British field crop with a Middle Passage history. Eastern seaboard gentry called them animal feed, which is where the name comes from.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Andean lupin</td>
+  <td><span class="v v-new">New arrival</span></td>
+  <td>One of the highest-scoring new pulses, and over 40% protein.<span class="idx">SW +62.6 &middot; SE +59.1 &middot; NW +57.2</span></td>
+  <td>Inedible without days of soaking to leach out its alkaloids. The technique is written down and learnable; the risk is that adoption outruns it, as it did with maize. Sweet, low-alkaloid varieties exist and are the obvious answer &mdash; but breeding and maintaining them is exactly the kind of sustained programme SSP3 defunds.</td>
+  <td>The nixtamalisation trap, waiting to happen again: a highly suitable staple that poisons you if you cook it like a broad bean.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Soybeans</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Substantial suitability increase, already trialled in southern England.<span class="idx">NW +44.2 &middot; SW +35.6</span></td>
+  <td>Rhizobium inoculant is self-sustaining once established. Crushing and refining are capital-intensive, and capital is the thing SSP3 is short of. Global soy trade from Brazil, the US and Argentina is disrupted by climate and trade barriers at once.</td>
+  <td>UK-grown tofu is climatically possible. Broad bean, pea and lupin remain likelier because they need no crushing plant.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Lentils and peas</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Garden peas are stressed by summer heat; lentils are more drought-tolerant and may expand. Both benefit from CO&#8322;.<span class="idx">Peas: SW +8.4 &middot; NE +3.0</span></td>
+  <td>Canadian and Indian lentil supply disrupted. Pea agronomy is established here.</td>
+  <td>Dhal from British-grown lentils, and pea protein as an extraction crop.</td>
+</tr>
+
+<tr class="cat-header"><td colspan="5">🥬 Vegetables</td></tr>
+
+<tr>
+  <td class="food-name">Brassicas</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Cool-season crops. Winter brassicas benefit from milder winters; summer crops suffer heat and drought. Diamondback moth and cabbage aphid both expand.</td>
+  <td>Weaker pesticide access and thinner surveillance under SSP3 make the pest pressure worse than the climate alone implies.</td>
+  <td>Kale survives, as kale does. Winter greens matter more as summer salads fail.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Salad leaves</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>Lettuce bolts in heat. UK summer production becomes unreliable and needs irrigation that competes with everything else.</td>
+  <td>Murcia, Britain's main winter supplier, faces severe desertification, and trade barriers compound the shortage.</td>
+  <td>A shift to heat-tolerant greens: amaranth leaves, chard, New Zealand spinach. Salad becomes seasonal again, as it was before airfreight.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Root vegetables</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Carrots need steady moisture and split in drought years. Parsnips and beetroot are more resilient. Wetter winters complicate lifting and storage.</td>
+  <td>Low import dependency; parsnips almost entirely domestic. These stay on the plate largely because nothing external can take them away.</td>
+  <td>Roots remain but become less reliable. The parsnip quietly becomes the hero of the group.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Tomatoes</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Outdoor tomatoes become viable in the south-east; warmer temperatures cut glasshouse heating costs.</td>
+  <td>Energy prices stay volatile, which is what actually decides glasshouse economics. Spanish, Dutch and Canary Islands supply all face severe water shortage.</td>
+  <td>More British outdoor tomatoes and fewer imported ones. Sun-dried British tomatoes become a real sentence.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Okra</td>
+  <td><span class="v v-new">New arrival</span></td>
+  <td>Substantial suitability increase, strongest in the north-west and south-west, weakest in the south-east.<span class="idx">NW +63.0 &middot; SW +42.2 &middot; SE +19.0</span></td>
+  <td>Currently imported from East Africa and India. Seed and labour are the constraints, not the climate.</td>
+  <td>Domestically grown okra, connecting to Caribbean and South Asian British cooking. Gumbo takes its name from the Bantu word for the plant.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Onions and alliums</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Drier summers suit bulb formation, but downy mildew worsens in warm humid conditions. Garlic becomes properly viable.<span class="idx">Onion: SW &minus;1.9 &middot; NE +3.7</span></td>
+  <td>Moderately resilient. Garlic substitution reduces Spanish and Chinese dependence.</td>
+  <td>British garlic reaches commercial scale. Onions remain the constant they always were.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Asparagus</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>Warmer springs extend the British season, and it is already expanding.</td>
+  <td>Reduces reliance on Peruvian and Mexican imports.</td>
+  <td>A longer English asparagus season. One unambiguous, uncomplicated win.</td>
+</tr>
+
+<tr class="cat-header"><td colspan="5">🍎 Fruit</td></tr>
+
+<tr>
+  <td class="food-name">Apples</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Warmer, drier conditions may improve quality, but the loss of winter chill hours threatens established cultivars, and codling moth and fire blight both expand.<span class="idx">NW +18.6 &middot; SE &minus;0.4</span></td>
+  <td>An orchard planted in 2080 needs nursery stock, breeding and investment decades earlier &mdash; exactly the long-horizon confidence Regional Rivalry destroys.</td>
+  <td>English varieties change: Braeburn types replace Cox. Cider production expands.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Pears</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>The most consistent fruit gain in the study, positive in every region.<span class="idx">SW +21.0 &middot; SE +20.5</span></td>
+  <td>Existing orchard base and low import dependency.</td>
+  <td>Pears and perry both expand. A quiet winner that nobody will write about.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Soft fruit</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Raspberries gain modestly. Strawberries give the weakest response of any major crop in the study, losing suitability in three regions out of four &mdash; though the model excludes the polytunnels most British strawberries actually grow in.<span class="idx">Strawberry: SW &minus;7.2 &middot; NW &minus;4.8</span></td>
+  <td>Spanish berry imports decline as Huelva's water runs out, leaving an opening. Labour and water are the constraints on filling it.</td>
+  <td>Berries are usually presented as Britain's clearest climate win. The rain-fed field data says raspberries yes, strawberries no.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Grapes</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>Positive in every region. Pinot Noir, Chardonnay and Riesling increasingly viable, with sparkling wine already rivalling Champagne.<span class="idx">SW +26.0 &middot; SE +22.7</span></td>
+  <td>900+ vineyards already exist, so the capital and the knowledge are in place. Southern European wine regions face severe heat stress.</td>
+  <td>The poster child of British climate agriculture. Sussex as the new Champagne.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Figs</td>
+  <td><span class="v v-new">New arrival</span></td>
+  <td>Commercial trials in Essex have been cropping reliably since 2012, harvesting August to November.</td>
+  <td>Growers are already replacing apple and pear plantings with figs. Turkish and Greek supply is drought-stressed.</td>
+  <td>British figs, already happening at small scale. The most concrete "didn't see that coming" on this page.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Citrus</td>
+  <td><span class="v v-latent">Latent</span></td>
+  <td>Substantial suitability increase for bitter orange and mandarin. Frost is the limiting factor and frost frequency drops sharply.<span class="idx">Bitter orange: SW +23.8 &middot; NW +22.5</span></td>
+  <td>The barrier here is not knowledge but time and nerve. An orchard is a twenty-year bet, it has to be re-made with every planting, and it cannot be shortened by importing a sack of seed. That is what a low-investment, low-confidence economy is genuinely bad at.</td>
+  <td>British marmalade from British oranges is the researchers' own projection for the 2080s. Believe it when the trees fruit.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Olives</td>
+  <td><span class="v v-latent">Latent</span></td>
+  <td>Trials in south-east England and coastal areas produce small crops in sheltered positions. Commercial viability by 2100 is plausible in southern counties.</td>
+  <td>Substitution pressure is enormous as Mediterranean groves fail. Against that, an olive tree takes five to ten years to bear and decades to repay, and frost extremes remain the risk. Scale would stay small.</td>
+  <td>British olive oil: symbolically extraordinary, nutritionally negligible. Rapeseed remains the actual cooking fat.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Bananas</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>Cannot be grown in Britain at any plausible warming level.</td>
+  <td>Now 7.8% of UK fruit supply. Caribbean and Central American production faces hurricanes, TR4 disease and trade disruption together.</td>
+  <td>The banana leaves the cheap fruit bowl and does not come back. For a century it was the fruit that poverty could afford.</td>
+</tr>
+
+<tr class="cat-header"><td colspan="5">🥩 Meat and dairy</td></tr>
+
+<tr>
+  <td class="food-name">Dairy cattle</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>Heat stress for south-east dairy cows rises from about a week a year to about two months. Yields drop up to 25% during heat events, with "emergency" conditions projected in dairy buildings by the 2080s.</td>
+  <td>Veterinary inputs, cooling energy and cold chain all degrade. EU dairy is stressed by the same warming.</td>
+  <td>Milk becomes more expensive and more seasonal, and the industry migrates to Scotland and the north-west. Fermented and aged products travel better than fresh milk through a weak distribution system.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Beef cattle</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>More heat-resilient than dairy. Milder winters help grass growth; summer drought cuts grazing in the south-east.</td>
+  <td>Feed costs rise as global grain prices spike, and Brazilian and Argentinian supply faces compound heat and drought.</td>
+  <td>Beef becomes a luxury. Grass-fed upland cattle fare better than lowland breeds, because they eat what humans cannot.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Sheep</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>More heat-tolerant than cattle, and upland farming benefits from milder winters and longer growing seasons. Liver fluke and blowfly strike both worsen.</td>
+  <td>Upland grass is land humans cannot use for anything else, which is what keeps sheep in the system when arable land is under pressure.</td>
+  <td>Lamb stays quintessentially British, but the flock's composition shifts toward Welsh mountain breeds.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Poultry and eggs</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>An extremely narrow thermal tolerance. Indoor systems already run hotter than outdoor ones in summer, and both egg production and broiler growth fall in heat.</td>
+  <td>Global feed supply of soya and maize is disrupted. Poultry converts human-edible grain, which becomes an increasingly awkward thing to do.</td>
+  <td>Chicken stops being cheap. Eggs get smaller and dearer, possibly from insect-fed birds.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Pigs</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>Feed conversion drops around 10% above 29&deg;C, and ventilation costs rise in an already indoor-concentrated industry.</td>
+  <td>Feed cost inflation under grain disruption is the decisive factor. Danish and Dutch exporters face the same pressures.</td>
+  <td>Bacon and sausages become expensive, possibly fed on insects and food waste. Offal, blood and rendered fat regain value as waste stops being affordable.</td>
+</tr>
+
+<tr class="cat-header"><td colspan="5">🐟 Seafood</td></tr>
+
+<tr>
+  <td class="food-name">Cod and haddock</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>Both already shifting north and deeper, with recruitment failures linked to warming and adults reaching smaller sizes. Classified as losers in the Cefas assessment.<span class="idx">North Sea decline 10&ndash;80% by 2100</span></td>
+  <td>Britain already imports most of its cod from Iceland and Norway, and those stocks move further north still. Shared-stock governance deteriorates.</td>
+  <td>Fish and chips without cod. The defining culinary loss, and already visible in closed fleets.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Herring</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>A cold-water species declining in the North Sea, with a projected northward shift of up to 400 km. A key forage fish, so the decline cascades through the food web.</td>
+  <td>Redistributing North Atlantic stocks cause international quota disputes, and SSP3 is the worst possible setting for resolving them.</td>
+  <td>Kippers and rollmops become heritage food. Note that the cold scenario makes herring the saviour protein: the same fish, opposite verdicts.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Mackerel</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Pelagic, mobile and already shifting north since 2007. More adaptable than the demersal fish, and still present in UK waters.</td>
+  <td>Quota disputes between the UK, EU, Iceland, Faroes and Norway are already acute. This is the one fish whose binding constraint is governance rather than biology.</td>
+  <td>Mackerel could be the sustainable British fish, if anyone can agree who owns it. Smoked mackerel as a new staple.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Sardines and anchovies</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>Both Cefas winners, expanding dramatically into UK waters. Sardines are already increasing around Cornwall and Devon; anchovies are moving north into the North Sea.</td>
+  <td>Not import-dependent. This is a local gain that needs no trade, no seed and no capital &mdash; only willingness.</td>
+  <td>Grilled sardines as the new fish supper, and British anchovies for Gentleman's Relish. Both are poverty fish elsewhere: Portugal's <em>fazer o peixe render</em>, Rome's <em>allec</em>.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Sea bass</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>A Cefas winner. Warmer water suits it and it is already expanding.</td>
+  <td>Reduces reliance on farmed Mediterranean bass.</td>
+  <td>Wild Channel sea bass becomes more available and cheaper. A luxury fish that stops being one.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Squid and octopus</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>A dramatic increase. Squid is now around 60% of the North Sea cephalopod catch, against 20% in the 1980s; octopus reached its highest level since 1950 in 2025.</td>
+  <td>Not import-dependent. The constraint is entirely cultural: Britain wants five fish and these are not among them.</td>
+  <td>Calamari as the new protein of the British coast. Restaurants adopted the Italian name over "squid" deliberately, because that is how rehabilitation works.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Shellfish</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>Ocean acidification threatens shell formation, with oyster supply projected down ~45% and scallops ~48%. Marine heatwaves cause mass mortality events.</td>
+  <td>Global shellfish are under the same pressure, so there is nowhere to import from.</td>
+  <td>The Whitstable oyster becomes a memory. Whelk fishers are already devastated; mussel ropes may last longer than beds.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Farmed salmon</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>Scottish water temperatures increasingly exceed salmon's comfort zone and sea lice proliferate in the warmth. The industry is projected to decline ~14% by 2090.</td>
+  <td>It is a feed-conversion business, so it inherits every problem of the grain and fishmeal supply. Norway faces the same issues.</td>
+  <td>Farmed salmon becomes scarcer and pricier. Trout, more heat-tolerant, partly substitutes.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Seaweed and kelp</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Cold-water kelp retreats poleward with up to 30% yield loss in warm summers, while warm-temperate species expand. Scotland retains viability.</td>
+  <td>The UK farming industry is still nascent, so almost everything depends on whether it gets built.</td>
+  <td>Scottish kelp farming as climate-adapted aquaculture. Welsh laverbread was doing this for pit workers four centuries ago.</td>
+</tr>
+
+<tr class="cat-header"><td colspan="5">🧬 Novel and alternative proteins</td></tr>
+
+<tr>
+  <td class="food-name">Farmed insects</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>A warmer climate cuts the heating costs that have always been the constraint on cricket and mealworm farming. 40&ndash;60% protein by dry weight.</td>
+  <td>Low-tech and decentralised, which fits fragmented governance better than any other novel protein. UK companies already operate.</td>
+  <td>Cricket flour in bread. The one genuinely SSP3-compatible protein &mdash; and, notably, no use at all in the cold scenario, where heat is the thing you cannot spare.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Mycoprotein</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>Fermentation-based and independent of field conditions. More scalable than cultivated meat by a wide margin.</td>
+  <td>Invented in Britain in 1985 and already culturally accepted, which is the hard part. Glucose feedstock supply is the real dependency.</td>
+  <td>Quorn is the British success story that scales under constraint, because it cleared the acceptability hurdle forty years ago.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Leaf protein concentrate</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>Extractable from sugar beet tops, grass clippings and crop residues by a simple mechanical process. Britain generates abundant agricultural residue.</td>
+  <td>Genuinely low-tech, which means it survives the loss of capital and expertise that kills the sophisticated options.</td>
+  <td>Field margins turned into food. The white fraction is bland and tofu-like; the green fraction tastes emphatically of grass.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Spirulina and duckweed</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>Both can be grown in open water in a warmer Britain. Duckweed doubles its biomass every two to four days and needs no arable land at all.</td>
+  <td>Low-tech and domestic. Spirulina has been harvested at Lake Texcoco and Lake Chad for centuries; nothing here is new.</td>
+  <td>Protein powder as a flour supplement, and a vivid green that photographs well. Spirulina's B12 is pseudocobalamin and does not count.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Cultivated meat</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Not climate-limited at all &mdash; this row is entirely about capability.</td>
+  <td>Growth media cost, stable energy and sophisticated bioreactors are all required, and slow technology transfer under fragmented governance limits scale-up to wealthy enclaves.</td>
+  <td>Available in expensive restaurants, absent from ordinary diets. The scenario turns a democratising technology into a luxury one.</td>
+</tr>
+
+<tr class="cat-header"><td colspan="5">🧂 Fats, flavour and drink</td></tr>
+
+<tr>
+  <td class="food-name">Rapeseed oil</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Benefits from CO&#8322;, but cabbage stem flea beetle is already devastating the crop and warmer winters allow more generations per year.</td>
+  <td>Domestic production with moderate self-sufficiency. Pest management becomes the whole game, and pesticide access declines.</td>
+  <td>Rapeseed oil stays on the shelf, and stays there in the cold scenario too. The most scenario-proof fat Britain has.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Safflower and sesame</td>
+  <td><span class="v v-new">New arrival</span></td>
+  <td>Safflower is the second-highest-scoring new crop in the entire study, after sorghum. Sesame gains strongly in the north.<span class="idx">Safflower: SW +64.7 &middot; NW +60.0 &middot; Sesame: NW +38.2</span></td>
+  <td>Both are drought-tolerant oilseeds for a country whose main oilseed is being eaten by flea beetle. Britain already crushes rapeseed, so the pressing infrastructure broadly transfers.</td>
+  <td>A domestic oilseed portfolio rather than a single vulnerable crop. Safflower is a plausible British frying oil by 2100.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Sunflower oil</td>
+  <td><span class="v v-new">New arrival</span></td>
+  <td>Substantial suitability increase, already grown at small scale. Needs a warm dry summer for the seed to mature.</td>
+  <td>Ukrainian and Russian supply is the geopolitical nightmare scenario for this commodity, and 2022 was the trailer.</td>
+  <td>British sunflower oil replaces part of the import, and sunflower seeds appear as an ingredient in their own right.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Herbs</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>Mediterranean herbs thrive in warmer, drier conditions. Rosemary and thyme are already naturalised; basil and oregano become viable outdoors in summer.</td>
+  <td>Reduces reliance on Israeli and Spanish imports. Nothing about this requires investment.</td>
+  <td>The British herb garden of 2100 looks Mediterranean. Herbs are also one of very few things that survive the cold scenario, which makes them the continuity between the two menus.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Chillies</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>A longer, warmer season extends outdoor viability, and polytunnel production expands.</td>
+  <td>An already vibrant UK niche industry needing no imports. Spanish pepper supply is drought-stressed.</td>
+  <td>Domestic hot sauce goes mainstream. Heat in food turns out to be a thermal luxury: the cold scenario is left with mustard and horseradish.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Mustard and horseradish</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>Horseradish shows strong suitability gains in the north and west. Mustard remains straightforwardly viable.<span class="idx">Horseradish: NW +53.8 &middot; NE +42.6</span></td>
+  <td>Both entirely domestic, with existing production at Colman's and elsewhere. As secure as anything on this page.</td>
+  <td>English pungency holds its own while imported spice becomes unreliable. Britain's most scenario-proof flavourings after salt.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Salt</td>
+  <td><span class="v v-gain">Gains</span></td>
+  <td>Underground and coastal, and indifferent to the weather.</td>
+  <td>Fully self-sufficient from Cheshire rock salt and sea salt. Untouched by trade barriers.</td>
+  <td>Unchanged, and more important than it looks. Salt is Britain's single greatest structural food-security asset in either scenario, and nobody counts it as one.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Sugar beet</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Yields rise initially with CO&#8322; and a longer season, but virus yellows, spread by aphids surviving milder winters, is already devastating crops.<span class="idx">SE +10.9 &middot; NE +15.7</span></td>
+  <td>Britain is self-sufficient in beet sugar, but the pest and disease arms race intensifies as pesticide access declines.</td>
+  <td>Domestic sugar supply stays relatively secure. One of the few staples where self-sufficiency is genuinely on Britain's side.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Hops and beer</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Hop suitability improves markedly in the north and west, and barley holds up nationally.<span class="idx">Hop: NW +34.4 &middot; NE +34.1</span></td>
+  <td>Water availability is the constraint on brewing, not malt or hops. Summer water competes with irrigation.</td>
+  <td>British brewing survives with a shifted geography. Cider expands with the apple crop.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Honey</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>Pollinator stress from heat, disease and phenological mismatch: flowers and bees fall out of sync. The Asian hornet keeps expanding.</td>
+  <td>Global honey supply is stressed too. The pollination crisis is the real problem, and it affects every fruit and vegetable row above.</td>
+  <td>Honey becomes scarce and expensive, which is the small version of a systemic risk.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Tea</td>
+  <td><span class="v v-mixed">Mixed</span></td>
+  <td>Camellia sinensis tolerates a warming Britain, and Cornish production at Tregothnan is already expanding.</td>
+  <td>Britain imports over 99% of the tea it drinks, and Sri Lanka, Kenya and India all face severe disruption while trade barriers compound the shortfall.</td>
+  <td>British-grown tea scales from novelty to niche and comes nowhere near replacing the import. Probably the most culturally painful line on the page.</td>
+</tr>
+
+<tr>
+  <td class="food-name">Coffee and chocolate</td>
+  <td><span class="v v-loss">Declines</span></td>
+  <td>Cannot be grown in Britain at any plausible warming level.</td>
+  <td>Coffee's suitable land is projected to halve by 2050 and West African cocoa is severely drought-stressed, while trade barriers make what remains unreliable.</td>
+  <td>Both revert to something like their eighteenth-century status: rare, expensive and remarked upon.</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+
+<div class="patterns">
+<h2>What the table adds up to</h2>
+
+<h3>The gains go north and west</h3>
+<p>Maize gains 62 suitability points in Scotland and 8 in the south-east. Broad beans gain 61 in the north-west and 6 in the south-east. Oats gain 34 in the north-east and lose ground in the south-east. The arable heartland of eastern England gains least and dries out most, while the advantage moves to the wetter, cooler, historically poorer half of the country &mdash; the half that ate oats and barley because it could not grow good wheat. The geographic inversion that runs between the tropics and the high latitudes runs inside Britain too.</p>
+
+<h3>The new British crops are the colonised world's staples</h3>
+<p>Ranked by suitability gain, the crops arriving in Britain are sorghum, safflower, Andean lupin, cowpea, durum wheat, okra, oca and tepary bean. Almost every one is an indigenous or colonially stigmatised staple: the sorghum that settler agriculture displaced across Africa, the cowpea that crossed the Atlantic as slave-ship provisions, the lupin and oca of the Andean highlands. Britain in 2100 grows the crops it taught the world to despise, and it acquires them by climate rather than by choice.</p>
+
+<h3>Regional Rivalry selects for these crops rather than blocking them</h3>
+<p>It is tempting to say the new crops never arrive because Britain has no seed and no skills. On a seventy-five-year horizon that argument does not hold: seed is a one-off acquisition that multiplies domestically after a season, reduced trade is not isolation, and two generations is ample to learn to mill a grain. The stronger reading runs the other way. SSP3 Britain farms with degraded soil, unaffordable fertiliser, failing machinery and drying summers &mdash; and sorghum, cowpea, tepary bean and lupin are smallholder staples across the global South for exactly that reason. They are low-input crops for a low-input country. The scenario does not prevent their adoption; it supplies the motive.</p>
+<p>What Regional Rivalry does genuinely destroy is anything requiring sustained institutional patience. Three things fall into that category. <strong>Breeding programmes:</strong> tropical landraces are short-day plants and need adapting to British daylength and season, and low-alkaloid lupin varieties need maintaining once bred &mdash; work that takes decades of public funding and cannot be bought in a sack. <strong>Perennials:</strong> an orchard is a twenty-year bet remade with every planting, which is why citrus and olives stay in the <span class="v v-latent">Latent</span> column while the annual field crops move out of it. <strong>Capital-intensive processing:</strong> oilseed crushing, soy refining and bioreactors need investment that a poor, fragmented economy does not make.</p>
+<p>So the honest version of this page's thesis is narrower and more interesting than "they could grow it but they won't." Britain gets the crops. What it loses is the ability to improve them, to plant anything that fruits after the next crisis, and to process what it grows into anything complicated.</p>
+
+<h3>The nixtamalisation trap, waiting</h3>
+<p>Andean lupin is among the highest-scoring new protein crops and is inedible without days of soaking to leach out its alkaloids. Britain has no tradition of doing that. Europe has made this mistake before, taking maize without taking nixtamalisation and getting three million cases of pellagra for it. A crop suitability model cannot see a missing technique, which is precisely why the food historians should be in this conversation.</p>
+
+<h3>Both scenarios hand Britain a small oily fish</h3>
+<p>Warming takes the cod, haddock and herring and delivers sardines, anchovies, sea bass and squid. Cooling does the reverse: herring and mackerel become the saviour protein while the warm-water species retreat south. In both cases the surviving fish is small, oily, cheap and historically eaten by the poor &mdash; Portugal's sardine, Rome's anchovy, the Dutch and Scottish herring. The fish supper survives in both futures. It just changes species.</p>
+
+<h3>Water is the binding input</h3>
+<p>A crop can be thermally perfect and commercially impossible without irrigation, and irrigation competes with drinking water, brewing and everything else. This is what quietly demotes potatoes, strawberries, salad, durum and maize despite favourable temperature scores, and it falls hardest on the south-east, where the infrastructure already is.</p>
+
+<div class="caution">
+<p><strong>On the suitability numbers.</strong> The index-point changes quoted throughout come from a study of 167 rain-fed, open-field crops assessed at +4&deg;C. They measure climatic suitability from 0 to 100, not yield and not production. The model excludes irrigation, pests, profitability, labour, seed availability, storage, processing and all protected cultivation &mdash; which is why the strawberry result should be read cautiously and why almost nothing here translates directly into tonnes.</p>
+</div>
+
+<div class="caution">
+<p><strong>On the scenario.</strong> SSP3-7.0 is an illustrative pathway, not a forecast, and it names no crops. The IPCC's central estimate for 2081&ndash;2100 is 3.6&deg;C, with a very likely range of 2.8&ndash;4.6&deg;C; +4&deg;C is used here as the nearest available crop analogue. The institutional decline described in the third column comes from the UK national downscaling of SSP3, which is a deliberately challenging storyline rather than anything the IPCC requires. A functioning world market is a legitimate sensitivity case, and in it a great deal of this page reads differently.</p>
+</div>
+</div>
+
+<div class="sources">
+<h3>Key sources</h3>
+Redhead et al. (2025) "National horizon scanning for future crops under a changing UK climate," <em>Climate Resilience and Sustainability</em> (UKCEH/UEA, 167 crops at 1 km resolution) &middot;
+IPCC AR6 WGI, Summary for Policymakers, Table SPM.1 &middot;
+Hanlon et al. (2021) UK climate indicators at global-warming levels, <em>Climatic Change</em> &middot;
+UK-SSPs semi-quantitative trends, UK Climate Resilience Programme &middot;
+Brown et al. (2022) "Exploring the future of land use and food security: a new set of UK scenarios" &middot;
+Met Office UKCP18 &middot;
+Cefas (2023) "Winners and losers of future climate change on UK fish species" &middot;
+Marine Climate Change Impacts Partnership, fisheries review &middot;
+Thornton et al. (2022) on heat stress in global cattle production, <em>Lancet Planetary Health</em> &middot;
+Myers et al. (2014) on CO&#8322; and crop nutrition, <em>Nature</em> &middot;
+Defra, <em>UK Food Security Report 2024</em>
+</div>
+
+</body>
+</html>

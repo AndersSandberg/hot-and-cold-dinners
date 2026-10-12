@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hot and Cold Dinners</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/base.css">
+<style>
+:root {
+  --accent: #6a3d9a;
+  --header-bg: #2a2520;
+  --row-hover: #efe9e0;
+  --cat-bg: #e8e2d6;
+  --caution-rule: #b33a2b;
+}
+
+.lede {
+  max-width: 64ch;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.lede p { margin-bottom: 0.8rem; }
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.card-head {
+  padding: 0.8rem 1rem;
+  color: #fff;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.card-hot  { background: #4a2a1d; }
+.card-cold { background: #1e3a47; }
+
+.card-body { padding: 0.9rem 1rem 1.1rem; font-size: 0.92rem; }
+.card-body h3 { font-size: 1.05rem; font-weight: 600; margin-bottom: 0.4rem; }
+.card-body p { margin-bottom: 0.7rem; color: var(--text); }
+
+.card-body a {
+  display: inline-block;
+  margin-right: 0.9rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.card-body a:hover { color: var(--text); }
+
+.pending {
+  color: var(--muted);
+  border-bottom-style: dotted;
+  pointer-events: none;
+}
+
+.pair {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 2rem;
+  background: var(--row-alt);
+  max-width: 68ch;
+}
+
+.pair h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.4rem; }
+.pair p { font-size: 0.93rem; margin-bottom: 0.5rem; }
+.pair p:last-child { margin-bottom: 0; }
+
+@media (max-width: 700px) {
+  .cards { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+<a href="index.html" class="here">Overview</a>
+<a href="hot.html">Hot &middot; ingredients</a>
+<a href="cold.html">Cold &middot; ingredients</a>
+<a href="hot-scenario.html">Hot &middot; scenario</a>
+<a href="cold-scenario.html">Cold &middot; scenario</a>
+</nav>
+
+<h1>Hot and Cold Dinners</h1>
+<p class="subtitle">Poverty food and future climates &mdash; a companion to the paper</p>
+
+<div class="lede">
+<p>The foods most likely to carry people through a climate catastrophe are, overwhelmingly, the foods that carried the world's poorest through the last several centuries. Potatoes, oats, seaweed, offal, pulses, fermented vegetables. This is not a coincidence. The traits that made a food into poverty food &mdash; hardiness, caloric efficiency, growing in marginal ground, keeping without refrigeration &mdash; are the traits that make a food resilient.</p>
+<p>The cultural hierarchy that put wheat above oats, beef above offal and butter above dripping was a preference for fragility. These pages work through what that means for British ingredients under two opposite futures: slow warming, and the abrupt cooling of a nuclear winter, a supervolcano or an impact. Both of them invert the medieval food hierarchy. The noble foods fail; the peasant foods endure.</p>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-head card-hot">Warming &middot; SSP3-7.0 &middot; ~3.6&deg;C by 2100</div>
+    <div class="card-body">
+      <h3>The hot dinner</h3>
+      <p>Britain becomes climatically capable of sorghum, durum wheat, chickpeas, figs and safflower, while losing cod, salad, bananas and cheap chicken. The crops that arrive are, almost without exception, the indigenous and colonially stigmatised staples of the global South.</p>
+      <a href="hot.html">Ingredients</a>
+      <a href="hot-scenario.html" class="pending">Scenario &amp; caveats</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-head card-cold">Cooling &middot; ASRS &middot; 5 to 150 Tg soot</div>
+    <div class="card-body">
+      <h3>The cold dinner</h3>
+      <p>Wheat lodges in the dark, the salad era ends, and the plate narrows to roots, brassicas, oats, fish and fermentation. Salt, mustard and horseradish become the entire spice rack. Britain would be eating the German Turnip Winter diet, with the German aftermath waiting.</p>
+      <a href="cold.html">Ingredients</a>
+      <a href="cold-scenario.html" class="pending">Scenario &amp; caveats</a>
+    </div>
+  </div>
+</div>
+
+<div class="pair">
+<h3>The fish supper, twice</h3>
+<p>Warming takes the cod, haddock and herring from British waters and delivers sardines, anchovies, sea bass and squid. Cooling does the reverse: herring and mackerel become the saviour protein while the warm-water species retreat south.</p>
+<p>In both futures the surviving fish is small, oily, cheap and historically eaten by the poor &mdash; Portugal's sardine rubbed on bread to make it last, Rome's <em>allec</em> sold off cheap to the plebs, the Dutch and Scottish herring that built an empire and smelled out Mayhew's London. The fish supper survives either way. It simply changes species.</p>
+</div>
+
+<div class="patterns">
+<h2>What both futures have in common</h2>
+
+<p><strong>The plate narrows and then re-widens from below.</strong> High-status, input-hungry, long-chain foods go first in both scenarios: fresh salad, cheap chicken, imported fruit, Mediterranean oil. What replaces them is in every case something a poorer population already ate.</p>
+
+<p><strong>Fermentation becomes the master technology.</strong> Vinegar for acidity and preservation, sauerkraut for vitamin C, malt for calories and morale, yeast extract for B vitamins and umami. All of it works without refrigeration and most of it without much energy. Every pre-industrial food culture arrived here independently, which is the strongest argument that it is the right answer.</p>
+
+<p><strong>Fat is the hard problem.</strong> Rapeseed survives both futures, and almost nothing else does. Fat carries flavour, enables browning and provides satiety, which makes its scarcity a culinary crisis as much as a nutritional one &mdash; and people abandon joyless diets regardless of what the nutrition tables say.</p>
+
+<p><strong>The constraint is rarely the climate.</strong> On the warming side it is breeding programmes, orchard lead times and processing capital. On the cooling side it is salt, fuel, cold chain and whether a government has the nerve to allocate barley to brewing. Both scenarios are decided less by what will grow than by what the system can still do with it.</p>
+
+<p><strong>And people resist being told what to eat.</strong> Rebecca Earle's finding about the potato &mdash; that working people objected not to eating it but to being instructed to &mdash; is probably the most important lesson the historical record offers to anyone planning a managed food transition. The German aversion to swede has outlived everyone who lived through 1917.</p>
+</div>
+
+<div class="sources">
+<h3>About</h3>
+Companion material for &ldquo;Hot and Cold Dinners: Poverty Food and Future Climates&rdquo;, a paper for the Oxford Food and Cookery Symposium 2026 (theme: poverty food). The warming scenarios are presented by Len Fisher; the rapid-cooling scenarios by Anders Sandberg, a board member of ALLFED, the Alliance to Feed the Earth in Disasters. Source citations are listed at the foot of each ingredient page.
+</div>
+
+</body>
+</html>
