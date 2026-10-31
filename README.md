@@ -24,8 +24,9 @@ Sandberg (board member, [ALLFED](https://allfed.info)).
 | `hot-scenario.html` | **to write** | What SSP3-7.0 does and does not say; model caveats |
 | `cold-scenario.html` | **to write** | What the ASRS literature does and does not say; model caveats |
 
-Navigation links to the two unwritten pages are present but inert on the
-overview; they will activate when the files land.
+The two unwritten pages appear in the navigation marked "(soon)" and are not
+clickable on any page, so nothing 404s. Making them live means writing the file
+and turning `<a class="soon">` back into an `href` in the three existing pages.
 
 ## Structure
 

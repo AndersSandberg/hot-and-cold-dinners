@@ -72,6 +72,16 @@ h1 {
 .nav a:hover { color: var(--accent); text-decoration: underline; }
 .nav a.here { color: var(--text); font-weight: 600; }
 
+/* Pages announced but not yet written: shown, not clickable */
+.nav a.soon {
+  color: var(--muted);
+  opacity: 0.55;
+  cursor: default;
+  pointer-events: none;
+}
+
+.nav a.soon::after { content: " (soon)"; font-size: 0.9em; }
+
 .intro { max-width: 62ch; margin-bottom: 1.5rem; font-size: 0.95rem; }
 .intro p { margin-bottom: 0.7rem; }
 
